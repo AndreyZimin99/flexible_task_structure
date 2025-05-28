@@ -47,9 +47,9 @@ if __name__ == '__main__':
 
     # Создание задачи
     task_data = {
-        'title': 'Задача 1',
-        'tags': ['work', 'urgent'],
-        'owner': 'user1',
+        'title': 'Задача',
+        'tags': ['python', 'mongodb'],
+        'owner': 'user',
         'custom_fields': {'priority': 'high'}
     }
     task_id = repo.create_task(task_data)
